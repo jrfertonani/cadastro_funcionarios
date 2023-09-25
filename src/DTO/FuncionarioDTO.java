@@ -4,39 +4,34 @@ package DTO;
 
 public class FuncionarioDTO {
     
-    private int id;     
-    private String nome,endereco,telefone;
+    private int id_funcionario;
+    private String nome_funcionario, endereco_funcionario;
 
-    public int getId() {
-        return id;
+    public int getId_funcionario() {
+        return id_funcionario;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-     public String getTelefone() {
-        return telefone;
+    public void setId_funcionario(int id_funcionario) {
+        this.id_funcionario = id_funcionario;
     }
 
-    public void setTelefone(String telefone) {
-        this.telefone = telefone;
-    }  
-
-    public String getNome() {
-        return nome;
+    public String getNome_funcionario() {
+        return nome_funcionario;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNome_funcionario(String nome_funcionario) {
+        this.nome_funcionario = nome_funcionario;
     }
 
-    public String getEndereco() {
-        return endereco;
+    public String getEndereco_funcionario() {
+        return endereco_funcionario;
     }
 
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
+    public void setEndereco_funcionario(String endereco_funcionario) {
+        this.endereco_funcionario = endereco_funcionario;
     }
+    
+    
     
     
 }
